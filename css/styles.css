@@ -1,0 +1,158 @@
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}  
+
+h1 {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+body {
+    font-family: Montserrat;
+}
+
+.navbar-brand {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.navbar {
+    padding: 0 0 4.3rem;
+}
+
+.nav-item {
+    padding: 0 18px 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: Montserrat-Light;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+.dog-image {
+    padding-left: 100px;
+}
+
+#features {
+    text-align: center;
+    padding: 5% 10%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-image {
+    color: #ef8172;
+    
+}
+
+.feature-h3 {
+    font-family: Montserrat-Bold;
+    font-size: 1.5rem;
+}
+
+.feature-p {
+    color: #8f8f8f;
+}
+
+.feature-image:hover {
+    color: #ff4c68;
+}
+
+.col-md-4 {
+    padding: 100px 100px 100px 100px;
+}
+
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    font-family: Montserrat-Bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 10%;
+    margin: 20px 20px 50px 20px;
+}
+
+.carousel-item {
+    padding: 7% 10%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width: 991px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.cta-h3 {
+    font-family: Montserrat-Black;
+    color: #fff;
+    font-size: 3.5rem;
+    width: 70%;
+    padding-left: 30%;
+    padding-top: 5%;
+}
+
+#footer {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.footer-icon {
+    padding: 150px 10px 20px 10px;
+}
